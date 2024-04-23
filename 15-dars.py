@@ -36,3 +36,15 @@ print("dastur toxtatildi")
 
 
 
+sonlar = list(range(1,11))
+for son in sonlar:
+    if son == 5:
+        continue# son 5ga kelganda continue kodni oqimasdan tepaga chiqar vordi
+    print(f"{son} sonining kvadrati {son**2} ga teng")
+
+raqam = 0
+while raqam<10:
+    raqam+=1
+    if raqam%2 != 0:# bu shartda sonni juftlarini consolga chiqaryapmiz
+        continue
+    else:print(raqam)
